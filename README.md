@@ -5,11 +5,11 @@ This plugin extends the list of ArchivesSpace required fields to comply with JHU
 
 ## Accessions
 
-- Title
-- Content description
-- Acquisition type
-- Resource type
-- Access restrictions note
+- Title [AS-16](https://issues.library.jhu.edu/browse/AS-16)
+- Content description [AS-16](https://issues.library.jhu.edu/browse/AS-16)
+- Acquisition type [AS-16](https://issues.library.jhu.edu/browse/AS-16)
+- Resource type [AS-16](https://issues.library.jhu.edu/browse/AS-16)
+- Access restrictions note [AS-16](https://issues.library.jhu.edu/browse/AS-16)
 
 ## Installation
 
