@@ -44,11 +44,9 @@ describe "Accessions" do
     }.to_not raise_error
     # cancel first to back out bad change
     @driver.find_element(:link, "Cancel").click
-    @driver.find_element_with_text('//div[contains(@class, "error")]', /Title - Property was missing/)
-    @driver.find_element_with_text('//div[contains(@class, "error")]', /Content Description - Property was missing/)
-    @driver.find_element_with_text('//div[contains(@class, "error")]', /Acquisition Type - Property was missing/)
-    @driver.find_element_with_text('//div[contains(@class, "error")]', /Resource Type - Property was missing/)
-    @driver.find_element_with_text('//div[contains(@class, "error")]', /Access Restrictions Note - Property was missing/)
+    @driver.find_element_with_text('//div[contains(@class, "error")]', /Title - Property is required but was missing/)
+    @driver.find_element_with_text('//div[contains(@class, "error")]', /Acquisition Type - Property is required but was missing/)
+    @driver.find_element_with_text('//div[contains(@class, "error")]', /Resource Type - Property is required but was missing/)
 
   end
 
